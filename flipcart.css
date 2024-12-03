@@ -1,0 +1,226 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+
+/* Nav bar sewction */
+
+
+.navbar {
+    background-color: #ffffff;
+    height: 70px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 12px 28px;
+}
+
+
+.flipcart-logo {
+    height: 40px;
+    width: 160px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.flipcart-logo:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #f9f9f9;
+}
+
+/* Search-section */
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 100%; /* Adjust width as needed */
+    margin: 40px;
+    width: 560px;
+    height: 40px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+.search-button {
+    background-color: white; /* Flipkart blue color */
+    border: none;
+    padding: 10px 15px;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 44px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.search-button:hover {
+    background-color: rgba(215, 215, 215, 0.933); /* Slightly darker shade on hover */
+}
+
+.service-section {
+    display: inline-flex;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.login-section {
+    margin-left: 80px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: white;
+}
+.login-section:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #f9f9f9 inset;
+}
+.cart-section {
+    margin-left: 80px;
+    font-size: 16px;
+    padding: 8px;
+}
+.cart-section:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #f9f9f9 inset;
+}
+.seller-section {
+    margin-left: 80px;
+    font-size: 16px;
+    padding: 8px;
+}
+.seller-section:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #f9f9f9 inset;
+}
+
+.more-info{
+    margin-left: 100px;
+    height: 40px;
+    width: 40px;
+}
+.more-info i {
+    padding: 8px;
+    height: 24px;
+    width: 24px;
+}
+.more-info:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #f9f9f9 inset;
+}
+
+/* NAVBAR-2 SECTION */
+
+
+.navbar-2 {
+    height: 140px;
+    display: flex;
+    background-color:white;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 16px;
+    margin-top: 8px;
+}
+
+.navbar-imgs {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 16px 16px 16px 24px;
+    margin: 0px 0px 4px;
+}
+.navbar-imgs:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #ccc;
+}
+
+/* Main-section-1 */
+
+.main-section{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/dummy/Best/Handpicked/99/D156384865_3A_3B_PC_Hero_3000x1200._CB545122946_.jpg);
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px 16px;
+    margin-top: 8px;
+
+}
+.main-msg{
+    background-color: white;
+    height: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 2px;
+}
+
+.main-msg a{
+    font-size: large;
+    color: #007185;
+}
+
+/* Shopping-section */
+
+.shopping-section {
+    height: 295px;
+    display: inline-flex;
+    padding: 0px 4px 12px;
+    background-color:pink;
+}
+
+.shopping-box1 {
+    height: 300px;
+    width: 1305px;
+}
+
+.electronics {
+    height: 64px;
+    width: 965px;
+    padding: 16px;
+} 
+.electronics b {
+    height: 28px;
+    width: 928px;
+    font-size: 20px;
+    color: #212121;
+}
+
+.box1 {
+    height: 200px;
+    width: 1300px;
+    background-color: white;
+    padding: 6px;
+    margin: 0px 39px;
+}
+
+.shopping-box2 {
+    background-color: aquamarine;
+    height: 300px;
+    width: 196px;
+}
